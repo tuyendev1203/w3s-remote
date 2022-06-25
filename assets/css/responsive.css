@@ -1,0 +1,105 @@
+/* pc */
+@media (min-width: 1024px){
+    #header .menu-icon{
+        display: none;
+    }
+
+    .contact-item a:hover{
+        opacity: 1;
+    }
+}
+
+/* ipad */
+@media (min-width : 740px) and (max-width: 1024px){
+
+    #header .menu-icon{
+        display: none;
+    }
+
+    #fooder .socials-list i{
+        font-size: 48px;
+        margin: 0 8px;
+    }
+
+    p.copyright, 
+    p a
+    {
+        font-size: 1rem !important;
+        padding: 10px 0px;
+    }
+
+    .contact-item a:hover{
+        opacity: 1;
+    }
+}
+
+/* mobie */
+@media (max-width:739px){
+    
+    #header .search-icon{
+        display: none;
+    }
+    
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    .member-item {
+        display: block;
+    }
+
+    .row.contact {
+        display: block;
+    }
+
+    .place-list .place-body{
+        height: 200px;
+    }
+
+    .row.place-list {
+        display: block;
+    }
+
+    .btn{
+        float: none;
+        padding: 8px 10px;
+    }
+
+    .place-margin {
+        font-size: 20px;
+    }
+
+    input.contact-send{
+        width: 100%;
+    }
+
+    .contact-padding{
+        width: 100%;
+    }
+
+    .contact-item a:hover{
+        opacity: 1;
+    }
+
+}
